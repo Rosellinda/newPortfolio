@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/index';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contacts from './pages/Contacts';
-import Footer from './components/Footer'
+import Footer from './components/Footer/index';
+
 
 const App = () => {
   return (
@@ -19,10 +20,10 @@ const App = () => {
           <Route path='/projects' component={Projects} />
           <Route path='/contacts' component={Contacts} />
         </Switch>
+        <Footer />
       </Router>
-      <Footer />
     </>
   );
 }
 
-export default App
+export default App;

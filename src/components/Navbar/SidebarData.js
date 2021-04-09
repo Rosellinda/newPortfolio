@@ -30,7 +30,7 @@ const SidebarData = [
         icon: <RiIcons.RiContactsBookLine />,
         cName: 'nav-text'
     }
-]
+];
 
 
 export default SidebarData;
