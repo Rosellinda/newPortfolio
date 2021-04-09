@@ -1,7 +1,15 @@
-.container {
-    color: red;
-    padding-top: 3em;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+footer {
+    flex: 0 0 auto;
+    color: #fff4e3;
+    background-color: #ffa45c;
+  }
+
+  .icon {
+    color: #fff4e3;
+    margin-left: 20px;
+  }
+  
+  .icon:hover {
+    color: tomato;
+  }
+  

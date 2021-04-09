@@ -1,5 +1,6 @@
 import React from "react";
 import './index.css';
+import SocialIcons from "./SocialIcons";
 
 const Footer = () => {
   return (
@@ -11,6 +12,9 @@ const Footer = () => {
               Copyright &copy; 2019. Lorem ipsum dolor sit amet consectetur
                 adipisicing elit.
             </p>
+          </div>
+          <div className="col-md-4 text-md-right">
+            <SocialIcons />
           </div>
         </div>
       </div>
