@@ -6,14 +6,13 @@ const Footer = () => {
   return (
     <footer className="py-4">
       <div className="container">
-        <div className="row justify-content-between text center">
-          <div className="col-md-4 text-md-left">
-            <p>
-              Copyright &copy; 2019. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit.
+        <div className="row justify-content-between text-center">
+          <div className="col-12">
+            <p className="text-center font-weight-bold">
+              Roselle Burlasa &copy; Copyright 2021
             </p>
           </div>
-          <div className="col-md-4 text-md-right">
+          <div className="col-12 justify-content-center">
             <SocialIcons />
           </div>
         </div>

@@ -1,15 +1,18 @@
 footer {
     flex: 0 0 auto;
     color: #fff4e3;
-    background-color: #ffa45c;
+    background-color: black;
   }
 
   .icon {
     color: #fff4e3;
-    margin-left: 20px;
+    font-size: 20px;
   }
   
   .icon:hover {
     color: tomato;
   }
+
+  
+
   

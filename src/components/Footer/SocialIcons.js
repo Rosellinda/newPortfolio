@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import * as FcIcons from "react-icons/fc";
+import * as ImIcons from "react-icons/im";
+import * as SiIcons from "react-icons/si";
+import * as FaIcons from "react-icons/fa";
+import * as GrIcons from "react-icons/gr";
 import * as AiIcons from "react-icons/ai";
-import * as MdIcons from "react-icons/md";
 import './index.css';
 
 const SocialIcons = () => {
@@ -10,17 +12,27 @@ const SocialIcons = () => {
       <>
         <span className="d-inline">
           <Link to="/" className="icon d-inline">
-            <FcIcons.FcAbout />
+            <ImIcons.ImFacebook />
           </Link>
         </span>
         <span className="d-inline">
           <Link to="/" className="icon">
-            <AiIcons.AiFillHome />
+            <GrIcons.GrLinkedin />
           </Link>
         </span>
         <span className="d-inline">
           <Link to="/" className="icon">
-            <MdIcons.MdWork />
+            <SiIcons.SiGmail />
+          </Link>
+        </span>
+        <span className="d-inline">
+          <Link to="/" className="icon">
+            <AiIcons.AiFillGithub />
+          </Link>
+        </span>
+        <span className="d-inline">
+          <Link to="/" className="icon">
+            <FaIcons.FaFreeCodeCamp />
           </Link>
         </span>
       </>
