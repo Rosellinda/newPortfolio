@@ -7,11 +7,18 @@
   }
   
   .menu-bars {
-    background-color: #060b26;
     margin-left: 2rem;
     font-size: 2rem;
     background: none;
   }
+
+  .menu-bars-on {
+    margin-left: 90%;
+    font-size: 2rem;
+    background: none;
+  }
+
+
   
   .nav-menu {
     background-color: #060b26;
