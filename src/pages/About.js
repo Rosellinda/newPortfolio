@@ -2,8 +2,8 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='about'>
-            <h1>About</h1>
+        <div className="mb_parallax_container about" id="mb_parallax_two">
+            <div className="mb_parallax_overlay"></div>
         </div>
     );
 }

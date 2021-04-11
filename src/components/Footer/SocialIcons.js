@@ -11,7 +11,7 @@ const SocialIcons = () => {
     return (
       <>
         <span className="d-inline">
-          <Link to="/" className="icon d-inline">
+          <Link to="/" className="icon">
             <ImIcons.ImFacebook />
           </Link>
         </span>

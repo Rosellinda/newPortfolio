@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sintony');
 
 * {
   box-sizing: border-box;
@@ -12,7 +12,7 @@
 .projects,
 .contacts {
   display: flex;
-  height: 90vh;
+  height: 100vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;

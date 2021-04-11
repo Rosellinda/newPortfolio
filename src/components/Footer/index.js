@@ -4,15 +4,15 @@ import SocialIcons from "./SocialIcons";
 
 const Footer = () => {
   return (
-    <footer className="py-4">
-      <div className="container">
-        <div className="row justify-content-between text-center">
+    <footer className="py-5">
+      <div className="container d-inline">
+        <div className="row px-5">
           <div className="col-12">
-            <p className="text-center font-weight-bold">
+            <p className="font-weight-bold text-center">
               Roselle Burlasa &copy; Copyright 2021
             </p>
           </div>
-          <div className="col-12 justify-content-center">
+          <div className="col-12 text-center">
             <SocialIcons />
           </div>
         </div>
